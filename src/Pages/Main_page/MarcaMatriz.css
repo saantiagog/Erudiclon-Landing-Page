@@ -1,0 +1,66 @@
+.Marcamatriz{
+    margin-top: 5rem;
+    color: aliceblue;
+    position: relative;
+}
+.Marcamatriz h1{
+    margin-bottom: 4rem;
+    border-bottom: 2px solid #fff;
+    border-radius: 5px;
+}
+.textos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+.parrafo{
+    display: flex;
+    flex-direction: column;
+}
+.parrafo p{
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+.imgbitate{
+    text-align: center;
+}
+.visitar{
+    background: rgb(92, 24, 181);
+    border-radius: 10px;
+    border-bottom: 5px solid rgb(75, 20, 147);
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+.visitar:hover{
+    background:  rgb(120, 59, 201);
+    border-bottom: 5px solid rgb(75, 20, 147);
+}
+.boton{
+    display: flex;
+    justify-content: flex-end;
+}
+.logobitate{
+    border-radius: 8px;
+    }
+    
+
+@media screen and (max-width: 644px) {
+    .textos{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem; 
+    }
+    .parrafo p{
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+    .boton{
+        display: flex;
+        justify-content: center;
+    }
+}

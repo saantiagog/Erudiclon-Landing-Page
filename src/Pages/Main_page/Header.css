@@ -1,0 +1,39 @@
+.logo{
+    width: 90px;
+}
+.links:hover{
+    color: aqua;
+}
+.header .menu{
+    background: #161920;
+}
+.botonbuscar{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10px;
+    border-bottom: 5px solid rgb(153, 153, 153);
+    font-size: 12px;
+}
+.botonenviar{
+    border-radius: 10px;
+    font-size: 12px;
+}
+.botonenviar :hover{
+    background-color: aliceblue;
+}
+.linkmenu{
+    color: rgb(255, 255, 255);
+}
+.linkmenu :hover{
+    color: rgb(62, 154, 200);
+    
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

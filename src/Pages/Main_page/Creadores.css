@@ -1,0 +1,43 @@
+.creadores h1{
+    color: #fff;
+    margin-bottom: 4rem;
+    border-bottom: 2px solid #fff;
+    border-radius: 5px;
+}
+.creadores{
+    margin-top: 5rem;
+}
+.img{
+    width: 20rem;
+    
+}
+.card{
+    width: 20rem;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.redescreadores img{
+    width: 30px;
+}
+
+@media screen and (max-width: 644px) {
+   
+    .creadores{
+       display: flex;
+       flex-direction: column; 
+    }
+    .card{
+        width: 80%;
+        margin: 1rem auto;
+    }
+   
+}

@@ -1,0 +1,39 @@
+.title h1{
+    margin-bottom: 4rem;
+    border-bottom: 2px solid #fff;
+    border-radius: 5px;
+}
+.cardcap{
+    width: 20em;
+    transform: rotate(-3deg);
+}
+.cardcap:hover{
+    transform: rotate(0deg);
+    transition: 0.2s ease;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.ver{
+    width: 8rem;
+    background: rgb(24, 122, 172);
+    border-radius: 10px;
+    border-bottom: 5px solid rgb(19, 97, 137);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.ver:hover{
+    background: rgb(62, 154, 200);
+    border-bottom: 5px solid rgb(23, 114, 160);
+}
+@media screen and (max-width: 644px) {
+    .cards{
+        display: block;
+        gap: 2em;
+    }
+}

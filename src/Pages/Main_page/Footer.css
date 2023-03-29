@@ -1,0 +1,9 @@
+.redes img{
+    width: 30px;
+}
+.linkmenufooter{
+    color: rgb(188, 185, 185);
+}
+.linkmenufooter :hover{
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,17 @@
+.banner{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    width: 70rem;
+}
+@media screen and (max-width: 644px) {
+    .banner img{
+        width: 30rem;
+    }
+    .banner{
+        margin-top: 5rem;
+    }
+}
